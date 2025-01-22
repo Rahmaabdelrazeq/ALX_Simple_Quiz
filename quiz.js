@@ -1,4 +1,4 @@
-/ Function to check the answer when user submits
+// Function to check the answer when user submits
 function checkAnswer() {
     // Define the correct answer
     const correctAnswer = "4";
@@ -30,4 +30,3 @@ function checkAnswer() {
 
 // Add event listener to the submit button
 document.getElementById('submit-answer').addEventListener('click', checkAnswer);
-
